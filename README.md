@@ -96,5 +96,3 @@ npm run dev
 | `DELETE` | `/api/orders/<id>/` | Delete an order |
 
 ---
-
-Would you like me to add a section on how to create the **Superuser** or how to run the **Database Migrations** for a fresh start?
