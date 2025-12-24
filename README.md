@@ -16,7 +16,6 @@ A minimal full-stack application for managing products and orders using **Django
 cd backend
 
 # Install dependencies using uv
-uv add django djangorestframework django-cors-headers
 uv sync
 
 ```
@@ -96,3 +95,4 @@ npm run dev
 | `DELETE` | `/api/orders/<id>/` | Delete an order |
 
 ---
+
