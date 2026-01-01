@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { reactive } from "vue";
+import Products from "@/components/Products.vue";
 let initState = reactive({count: 0})
 const decreaseCount = () => {
   if (initState.count > 0)
@@ -9,6 +10,7 @@ const decreaseCount = () => {
 <template>
 <!--  <h1>You did it!</h1>-->
   <Face />
+<!--  <Products />-->
 <!--  <h2>{{initState.count}}</h2>-->
 <!--  <Face />-->
 <!--  <p>-->

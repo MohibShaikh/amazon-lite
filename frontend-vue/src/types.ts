@@ -1,3 +1,5 @@
+import Products from "@/components/Products.vue";
+
 export interface Product {
     id: number;
     name: string;
@@ -15,4 +17,12 @@ export interface Order {
     status: string;
     items: OrderItem[];
     total_price: number;
+}
+
+
+export interface ProductInfo {
+    products : Product[];
+    count : number;
+    max_price : number;
+
 }
